@@ -1,0 +1,16 @@
+node_modules
+*.log
+*.swp
+.bin
+*.tar.gz
+*.mysql
+*.zip
+.idea
+*.sqlite
+package.lock
+.DS_Store
+*todo*
+log/*
+package-lock.json
+db-config.json
+*.iml

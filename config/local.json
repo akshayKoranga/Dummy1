@@ -1,0 +1,26 @@
+{
+    "name": "app-street-service",
+    "configProvider": {
+      "region": "ap-southeast-2"
+    },
+    "port": 3003,
+    "database": {
+      "client": "mysql",
+      "debug": false,
+      "connection": {
+        "database": "app-street-service-dev",
+        "user": "root",
+        "password": "SerAkshay"
+      },
+      "seeds": {
+        "directory": "./seeds/dev"
+      }
+    },
+    "apiBaseURL": "",
+    "apiEndpoints": {
+      "check_api": "http://localhost:3003/"
+    },
+    "jwt": {
+      "publicKey": "dummy"
+    }
+  }
